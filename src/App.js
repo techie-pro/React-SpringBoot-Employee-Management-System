@@ -1,11 +1,13 @@
-
 import './App.css';
+import AddEmployee from './components/AddEmployee';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <h1>
-      Welcome to Springboot Employee Management System with Robust React UI
-    </h1>
+    <>
+      <Navbar />
+      <AddEmployee />
+    </>
   );
 }
 
